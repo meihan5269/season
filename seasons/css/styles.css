@@ -1,0 +1,153 @@
+/* ========================================
+   General styles for small screens
+   ======================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f1e8;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: #333333;
+    font-size: 2rem;
+}
+
+.introduction {
+    color: #444444;
+    text-align: left;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+/* ========================================
+   Spring colors
+   ======================================== */
+
+.spring h2 {
+    color: #2e7d32;
+}
+
+.spring p {
+    color: #355e3b;
+}
+
+
+/* ========================================
+   Summer colors
+   ======================================== */
+
+.summer h2 {
+    color: #d2691e;
+}
+
+.summer p {
+    color: #7a451f;
+}
+
+
+/* ========================================
+   Fall colors
+   ======================================== */
+
+.fall h2 {
+    color: #9a4e13;
+}
+
+.fall p {
+    color: #713b2c;
+}
+
+
+/* ========================================
+   Winter colors
+   ======================================== */
+
+.winter h2 {
+    color: #4169a1;
+}
+
+.winter p {
+    color: #304b6e;
+}
+
+
+/* ========================================
+   Footer
+   ======================================== */
+
+footer {
+    color: #555555;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* ========================================
+   Large screens - 750px and wider
+   ======================================== */
+
+@media screen and (min-width: 750px) {
+
+    body {
+        padding: 30px;
+    }
+
+    header {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    main {
+        max-width: 900px;
+    }
+
+    section {
+        padding: 30px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+}
